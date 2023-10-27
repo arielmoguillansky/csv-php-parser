@@ -1,4 +1,5 @@
 <?php
+include 'columnKeys.php';
 
 class CSVParser {
     private $inputFile;
@@ -63,8 +64,6 @@ class CSVParser {
       $productCounts = [];
 
       // Prepare the data for CSV
-      $csvData = [];
-      $csvData[] = ['make', 'model', 'colour', 'capacity', 'network', 'grade', 'condition', 'count'];
 
       foreach ($products as $product) {
           // Convert the product data to a string for comparison

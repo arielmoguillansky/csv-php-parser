@@ -1,5 +1,6 @@
 <?php
 require_once 'CSVParser.php';
+
 $shortOptions = "";
 $longOptions = ["file:", "unique-combinations:"];
 $options = getopt($shortOptions, $longOptions);
