@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ParserTest::testCsvFileToString":4,"ParserTest::testCreateCSVFile":4,"ParserTest::testParseCSVData":4,"ParserTest::testCSVParser":3,"ParserTest::testIncorrectInput":6},"times":{"ParserTest::testCsvFileToString":0.001,"ParserTest::testCreateCSVFile":0,"ParserTest::testParseCSVData":0,"ParserTest::testCSVParser":0.651,"ParserTest::testIncorrectInput":0}}
